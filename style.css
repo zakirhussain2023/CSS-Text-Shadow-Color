@@ -1,0 +1,150 @@
+.textcolor{
+	color:red;
+	background-color:yellow;
+	border-top:10px solid blue;
+	border-bottom:10px dashed green;
+	border-left:5px none aquamarine;
+	border-right:5px double green;
+	border-radius:50px;
+	padding:10px 10px 10px 10px;
+
+}
+
+.textalign{
+	border:10px dotted pink;
+}
+
+#para1{
+	text-align:left;
+}
+#para2{
+	text-align:right;
+}
+#para3{
+	text-align:center;
+}
+#para4{
+	text-align:justify;
+}
+
+.textalignlast{
+	border:10px double yellow;
+}
+
+#para5{
+	text-align-last:left;
+}
+#para6{
+	text-align-last:right;
+}
+#para7{
+	text-align-last:center;
+}
+#para8{
+	text-align-last:justify;
+}
+
+.direction{
+	border:10px solid brown;
+}
+
+.direction p{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+
+.verticalalign{
+	border:10px solid black;
+}
+
+#word1{
+	vertical-align:text-top;
+	vertical-align:10px;
+}
+
+#word2{
+	vertical-align:bottom;
+	vertical-align:-10px;
+}
+#word3{
+	vertical-align:sub;
+	vertical-align:-10px;
+}
+
+.textdecoration{
+	border:10px solid purple;
+}
+
+#head1{
+	text-decoration-line:underline;
+	text-decoration-color:blue;
+	text-decoration-style:solid;
+	text-decoration-thickness:10px;
+}
+#head2{
+	text-decoration-line:overline;
+	text-decoration-color:green;
+	text-decoration-style:dotted;
+	text-decoration-thickness:5px;
+}
+#head3{
+	text-decoration-line:line-through;
+	text-decoration-color:red;
+	text-decoration-style:double;
+	text-decoration-thickness:5px;
+}
+
+.texttransform{
+	border:10px solid blueviolet;
+}
+
+#para9{
+	text-transform:uppercase;
+}
+
+#para10{
+	text-transform:lowercase;
+}
+
+#para11{
+	text-transform:capitalize;
+}
+
+.textspacing{
+	border:10px solid violet;
+}
+
+#para12{
+	text-indent:50px;
+}
+
+#para13{
+	letter-spacing:10px;
+}
+
+#para14{
+	line-height:50px;
+}
+
+#para15{
+	word-spacing:50px;
+}
+
+#para16{
+	white-space:wrap;
+}
+#para17{
+	white-space:nowrap;
+}
+
+.textshadow{
+	border:10px solid slateblue;
+}
+#textshad{
+	text-shadow: -10px 15px 5px #FF0000 ,10px -15px 5px #00FF00;
+}
+
+.boxshadow{
+	border:10px solid MediumSeaGreen;
+	box-shadow: 5px 10px 5px 10px #0000FF, 60px -16px 5px 10px teal,20px 15px 5px 10px slateblue; 
+}
